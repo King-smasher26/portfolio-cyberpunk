@@ -1,0 +1,56 @@
+.first-content{
+    margin-top: 30px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.intro1{
+    text-align: center;
+}
+.myimg{
+    height: 320px;
+    width: 250px;
+}
+
+.wrap{
+    color: white;
+}
+
+.first-content{
+font-family: 'Montserrat';
+}
+#fc1{
+    font-size: 30px;
+}
+#fc2{
+    font-size: 50px;
+    font-weight: 600;
+}
+#fc3{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+
+.bg-image {
+    /* The image used */
+    background-image: url("./images/wallpaperflare.com_wallpaper.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
