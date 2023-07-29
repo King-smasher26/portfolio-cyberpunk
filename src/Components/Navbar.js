@@ -7,6 +7,7 @@ export default function Navbar() {
   
   return (
     <>
+    {/* this is trial */}
     <nav className='nav' id="mynav">
       <div className='nav-left'>
               <span className='aman' id="aman">Portfolio</span>
