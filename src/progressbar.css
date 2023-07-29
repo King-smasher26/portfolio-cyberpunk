@@ -1,0 +1,51 @@
+.progressbar{
+	position: relative;
+	overflow: hidden;
+	width: 350px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: #eee;
+	border: 2px solid black;
+	margin: 0px 100px 0px 0px;
+	
+}
+
+.progressPercent{
+	font-weight: 600;
+	font-family:'Franklin Gothic Medium';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #eee;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
+.barname{
+	margin-right: 10px;
+}
+.skill-logos{
+	height: 50px;
+}
+
+.setprog{
+	/* border: 2px solid pink; */
+	display: flex;
+	align-items: center;
+	width: 500px;
+}
+
+.allprogbars{
+	/* border: 5px solid black; */
+	width: 1050px;
+	display: block;
+	margin: auto;
+	/* border: 1px solid springgreen; */
+}
+
+.prog-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 50px;
+}

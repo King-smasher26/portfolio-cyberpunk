@@ -9,7 +9,7 @@ export default function Navbar() {
     <>
     <nav className='nav' id="mynav">
       <div className='nav-left'>
-              <span className='aman' id="aman">AMAN BISHT</span>
+              <span className='aman' id="aman">Portfolio</span>
             <div className="icons">
          <a href="#">
             <div className="layer">
@@ -35,7 +35,7 @@ export default function Navbar() {
                Linkedin
             </div>
          </a>
-         <a href="#">
+         <a href="https://github.com/King-smasher26">
             <div className="layer">
                <span></span>
                <span></span>

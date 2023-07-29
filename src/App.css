@@ -1,19 +1,144 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+
 .Project-card{
     margin-top: 500px;
     margin-left: 100px;
     /* border: 10px solid white; */
 }
 .App{
-    opacity: 120%;
-    border: 1px solid white;
     height: 100vh;
-    
+    /* overflow-y: hidden; */
 }
 
+.first-section{
+    height: 100vh;
+    /* background-image: url("../src/images/wallpaperflare.com_wallpaper.jpg"); */
+}
 
+#img1_parallax{
+    background-image: url("./images/wallpaperflare.com_wallpaper.jpg");
+    /* border: 2px solid springgreen; */
+    height: 100vh;  
+    /* background-size: cover; */
+    
+}
+#img2_parallax{
+    /* background-image: url("./images/city-5848267_1920.jpg"); */
+    
+}
+.first-content{
+    backdrop-filter: blur(6px);
+    background: rgba(0,0,0,0);
+    
+}
+#img4_parallax{
+    background-image: url('../src/images/cyberpunk-6061251_1920.jpg');
+}
+.nav-element{
+    position: absolute;
 
-* {
-    box-sizing: border-box;
+}
+#img3_parallax{
+    margin-top: 150px;
+    
+}
+.animation,.animation_layer{
+    height: 1000px;
+}
+
+.animation_layer{
+    background-position: bottom center;
+    /* background-size: auto 1038px ; */
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+}
+
+.animation_layer.parallax{
+    position: fixed;
+}
+
+.animation{
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+#progress-bar_parallax{
+        height: 400px;
+        backdrop-filter: blur(6px);
+        background: rgba(0,0,0,0);
+        display: block;
+        text-align: center;
+        box-shadow: 0ch;
+    }
+#progress-bar_parallax2{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+    #skills-text{
+        font-size: 50px;
+        
+    }
+    
+    #skills-text {
+        color: hsl(0, 0%, 28%);
+        font-size: 50px;
+        font-weight: bold;
+        font-family: monospace;
+        letter-spacing: 7px;
+        cursor: pointer;
+    }
+    
+#myprojects_parallax{
+        height: 600px;
+        backdrop-filter: blur(6px);
+        background: rgba(0,0,0,0);
+        display: block;
+        text-align: center;
+        box-shadow: 0ch;
+        
+}
+  
+  #skills-text span {
+    transition: 0.5s ease-out;
   }
-  
-  
+  #skills-text:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  /* #skills-text:hover span:nth-child(1):after {
+    content: "'";
+  } */
+  #skills-text:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  #skills-text:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }
+
+  @media(max-width:600px){
+    .img2_parallax{
+        visibility: hidden;
+    }
+    
+  }
